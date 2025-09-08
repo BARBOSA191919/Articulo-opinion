@@ -21,7 +21,7 @@
 - 6.2 Testimonials
 - 6.3 Gallery
 - 6.4 Video
-- 6.5 Clients
+- 6.5 resources
 - 6.6 Pricing Table
 7. Footer
 
@@ -216,7 +216,7 @@ section {
     padding: 20px;
 }
 
-#clients .col-2-3 [class*='col-'] {
+#resources .col-2-3 [class*='col-'] {
     padding: 0;
 }
 
@@ -1379,7 +1379,7 @@ blockquote {
 
 /* --------- 6.6 Clients ---------- */
 
-#clients a {
+#resources a {
     display: block;
     text-align: center;
     position: relative;
@@ -1388,16 +1388,16 @@ blockquote {
     color: #fff;
 }
 
-#clients img {
+#resources img {
     display: inline-block;
     padding: 15px 25px;
 }
 
+/* ...existing code... */
 .client-overlay {
     background: rgba(0, 0, 0, 0.8);
     position: absolute;
-    top;
-    0;
+    top: 0;
     right: 0;
     bottom: 0;
     left: 0;
@@ -1409,8 +1409,9 @@ blockquote {
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
+/* ...existing code... */
 
-#clients a:hover .client-overlay {
+#resources a:hover .client-overlay {
     opacity: 1;
 }
 
