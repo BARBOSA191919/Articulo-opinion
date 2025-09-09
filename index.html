@@ -18,6 +18,7 @@
     <!-- Main CSS Files -->
     <link rel="stylesheet" href="css/style.css">
 
+
     <!-- Namari Color CSS -->
     <link rel="stylesheet" href="css/namari-color.css">
 
@@ -62,11 +63,11 @@
                         <div id="logo">
 
                             <!--Logo that is shown on the banner-->
-                            <img src="images/logo.png" id="banner-logo" alt="Landing Page" />
+                            <img src="images/logo3.png" id="banner-logo" alt="Landing Page" />
                             <!--End of Banner Logo-->
 
                             <!--The Logo that is shown on the sticky Navigation Bar-->
-                            <img src="images/logo-2.png" id="navigation-logo" alt="Landing Page" />
+                            <img src="images/logo3.png" id="navigation-logo" alt="Landing Page" />
                             <!--End of Navigation Logo-->
 
                         </div>
@@ -77,27 +78,14 @@
                             <!--Social Icons in Header-->
                             <ul class="social-icons">
                                 <li>
-                                    <a target="_blank" title="Facebook" href="https://www.facebook.com/username">
+                                    <a target="_blank" title="Facebook"
+                                        href="https://www.facebook.com/santiago.josebarbosa">
                                         <i class="fa fa-facebook fa-1x"></i><span>Facebook</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a target="_blank" title="Facebook" href="https://www.facebook.com/username">
-                                        <i class="fa fa-facebook fa-1x"></i><span>Facebook</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a target="_blank" title="Facebook" href="https://www.facebook.com/username">
-                                        <i class="fa fa-facebook fa-1x"></i><span>Facebook</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a target="_blank" title="Facebook" href="https://www.facebook.com/username">
-                                        <i class="fa fa-facebook fa-1x"></i><span>Facebook</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a target="_blank" title="Instagram" href="http://www.instagram.com/username">
+                                    <a target="_blank" title="Instagram"
+                                        href="https://www.instagram.com/sbarbosarivas/">
                                         <i class="fa fa-instagram fa-1x"></i><span>Instagram</span>
                                     </a>
                                 </li>
@@ -275,12 +263,10 @@
             </aside>
             <!--End of Gallery-->
 
-
             <!--Content Section-->
             <div id="article" class="scrollto clearfix">
 
                 <div class="row no-padding-bottom clearfix">
-
 
                     <!--Content Left Side-->
                     <div class="col-3">
@@ -297,70 +283,76 @@
 
                     <!--Content of the Right Side-->
                     <div class="col-3">
-                        <div class="section-heading">
-                            <h3>CREATIVIDAD = INNOVACIÓN 💡🎨✍🏼💫 </h3>
-                            <h2 class="section-title">¿Cómo aumentar la creatividad para convertirte en una fuente
-                                inagotable de ideas?</h2>
-                            <p class="section-subtitle">La creatividad es uno de los motores más importantes dentro del
-                                emprendimiento porque permite generar ideas novedosas capaces de transformarse en
-                                proyectos de alto impacto.
-                            </p>
+                        <!-- Paginación del artículo -->
+                        <div id="article-page-1" class="article-page">
+                            <div class="section-heading">
+                                <h3>CREATIVIDAD = INNOVACIÓN 💡🎨✍🏼💫 </h3>
+                                <h2 class="section-title">¿Cómo aumentar la creatividad para convertirte en una fuente
+                                    inagotable de ideas?</h2>
+                                <p class="section-subtitle">La creatividad es uno de los motores más importantes dentro
+                                    del emprendimiento porque permite generar ideas novedosas capaces de transformarse
+                                    en proyectos de alto impacto.</p>
+                            </div>
+                            <p>La creatividad, como explica Rajadell (2019), es la capacidad de pensar de manera
+                                diferente, romper esquemas y abrir caminos donde antes no los había.
+                                Por su parte, la innovación ocurre cuando esas ideas creativas se aplican en la realidad
+                                y logran transformar algo: un producto, un servicio, un proceso o incluso una forma de
+                                trabajar.</p>
+                            <p>En el mundo del emprendimiento, la creatividad no es un lujo, es una necesidad. Un
+                                emprendedor creativo es capaz de identificar oportunidades donde otros ven problemas.
+                                Esa chispa es la que diferencia a quienes solo siguen tendencias de quienes crean nuevas
+                                realidades. Pero… ¿cómo mantener encendida esa chispa y no quedarnos sin ideas?</p>
+                            <button class="button" onclick="showArticlePage(2)">Siguiente &rarr;</button>
                         </div>
-                        <p>La creatividad, como explica Rajadell (2019), es la capacidad de pensar de manera diferente,
-                            romper esquemas y abrir caminos donde antes no los había.
-                            Por su parte, la innovación ocurre cuando esas ideas creativas se aplican en la realidad y
-                            logran transformar algo: un producto, un servicio, un proceso o incluso una forma de
-                            trabajar.
-                        </p>
-                        <p>
-                            En el mundo del emprendimiento, la creatividad no es un lujo, es una necesidad. Un
-                            emprendedor creativo es capaz de identificar oportunidades donde otros ven problemas. Esa
-                            chispa es la que diferencia a quienes solo siguen tendencias de quienes crean nuevas
-                            realidades.Pero… ¿cómo mantener encendida esa chispa y no quedarnos sin ideas?
-                        </p>
+                        <div id="article-page-2" class="article-page" style="display:none;">
+                            <h4>🔑 Claves para alimentar la creatividad 🎨</h4>
+                            <h2 class="section-subtitle">1. Curiosidad sin límites:</h2>
+                            <p>No te conformes con lo que ya sabes. Lee sobre temas que no tienen nada que ver con tu
+                                área, viaja, conversa con personas diferentes. La mente se enriquece cuando recibe
+                                estímulos variados.</p>
+                            <h2 class="section-subtitle">2. Pensar en muchas direcciones:</h2>
+                            <p>La creatividad no busca una única respuesta, sino varias. Entrénate con técnicas de
+                                brainstorming, mapas mentales o hasta juegos que te hagan ver las cosas desde otra
+                                perspectiva.</p>
+                            <button class="button" onclick="showArticlePage(1)">&larr; Anterior</button>
+                            <button class="button" onclick="showArticlePage(3)">Siguiente &rarr;</button>
+                        </div>
+                        <div id="article-page-3" class="article-page" style="display:none;">
+                            <h2 class="section-subtitle">3. Ambientes que inspiran:</h2>
+                            <p>No hay creatividad en espacios rígidos y llenos de miedo al error. Necesitamos entornos
+                                que permitan experimentar, equivocarnos y volver a intentar. De ahí nacen las mejores
+                                innovaciones.</p>
+                            <h2 class="section-subtitle">4. Disciplina creativa.</h2>
+                            <p>La creatividad también requiere hábito. Escribir un diario de ideas, tener un cuaderno de
+                                notas o dedicar 15 minutos al día a imaginar soluciones para cualquier cosa, fortalece
+                                la mente creativa.</p>
+                            <p>Ser creativo no significa esperar a que llegue “la gran idea”, sino entrenar la mente
+                                para que produzca muchas ideas y seleccionar las más útiles para llevarlas a la
+                                práctica. Cada persona puede convertirse en una fuente inagotable de ideas si cultiva la
+                                curiosidad, la flexibilidad y la capacidad de trabajar en equipo dentro de entornos que
+                                fomenten la innovación.</p>
+                            <p>En definitiva, la creatividad y la innovación son el corazón del emprendimiento: una da
+                                origen a las ideas y la otra las convierte en realidad.</p>
+                                
+                            <!-- Botón para mostrar el video -->
+                            <button class="btn-modern" id="openModal">Ver video</button>
 
-                        <h4>🔑 Claves para alimentar la creatividad 🎨</h4>
-                        <h2 class="section-subtitle">1.Curiosidad sin límites:</h2>
-                        <p>No te conformes con lo que ya sabes. Lee sobre temas que no tienen nada que ver con tu área,
-                            viaja, conversa con personas diferentes. La mente se enriquece cuando recibe estímulos
-                            variados.</p>
-
-                        <h2 class="section-subtitle">2. Pensar en muchas direcciones:</h2>
-                        <p>La creatividad no busca una única respuesta, sino varias. 
-                            Entrénate con técnicas de brainstorming, mapas mentales o hasta juegos que te hagan ver las cosas desde otra perspectiva.</p>
-
-                        <h2 class="section-subtitle">3. Ambientes que inspiran:</h2>
-                        <p>No hay creatividad en espacios rígidos y llenos de miedo al error.
-                            Necesitamos entornos que permitan experimentar, equivocarnos y volver a intentar. De ahí nacen las mejores innovaciones.</p>
-                        <h2 class="section-subtitle">4. Disciplina creativa.</h2>
-                        <p>La creatividad también requiere hábito. Escribir un diario de ideas, tener un cuaderno de notas o dedicar 15 minutos al día a imaginar soluciones para cualquier cosa,
-                            fortalece la mente creativa.</p>
-
-                        <p>
-                            Ser creativo no significa esperar a que llegue “la gran idea”, sino entrenar la mente para
-                            que produzca muchas ideas y seleccionar las más útiles para llevarlas a la práctica.
-                            Cada persona puede convertirse en una fuente inagotable de ideas si cultiva la curiosidad,
-                            la flexibilidad y la capacidad de trabajar en equipo dentro de entornos que fomenten la
-                            innovación.
-
-                            En definitiva, la creatividad y la innovación son el corazón del emprendimiento: una da
-                            origen a las ideas y la otra las convierte en realidad.
-                        </p>
-                        <!-- Just replace the Video ID "UYJ5IjBRlW8" with the ID of your video on YouTube (Found within the URL) -->
-                        <a href="#" data-videoid="PLJwULvSQJo" data-videosite="youtube"
-                            class="button video link-lightbox">
-                            Ver Video <i class="fa fa-play" aria-hidden="true" autoplay></i>
-                        </a>
+                            <!-- Modal -->
+                            <div class="modal" id="videoModal">
+                                <div class="modal-content">
+                                <span class="close" id="closeModal">&times;</span>
+                                <iframe id="youtubeFrame" src="" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <button class="button" onclick="showArticlePage(2)">&larr; Anterior</button>
+                        </div>
                     </div>
                     <!--End Content Right Side-->
 
                     <div class="col-3">
                         <img src="images/portada_articulo.jpg" alt="Dancer" />
                     </div>
-
                 </div>
-
-
             </div>
             <!--End of Content Section-->
 
@@ -406,44 +398,61 @@
             <!--Clients-->
             <section id="resources" class="scrollto clearfix">
                 <div class="section-heading">
-                        <center><h3>RECURSOS ÚTILES</center></h3>
-                        <center><h2 class="section-title">"Recomendaciones de expertos"</h2></center>
-                    </div>
+                    <center>
+                        <h3>RECURSOS ÚTILES
+                    </center>
+                    </h3>
+                    <center>
+                        <h2 class="section-title">"Recomendaciones de expertos"</h2>
+                    </center>
+                </div>
                 <div class="row clearfix">
                     <div class="col-3">
                         <div class="section-heading">
                             <h3>Albert Einstein</h3>
                             <h2 class="section-title">"La imaginación es más importante que el conocimiento." </h2>
-                            <p class="section-subtitle">Aquí encontrarás algunos recursos recomendados para seguir explorando la creatividad y la innovación en el emprendimiento.</p>
+                            <p class="section-subtitle">Aquí encontrarás algunos recursos recomendados para seguir
+                                explorando la creatividad y la innovación en el emprendimiento.</p>
                         </div>
 
                     </div>
 
                     <div class="col-2-3">
 
-                        <a href="https://www.casadellibro.com.co/libro-creatividad-emprendimiento-y-mejora-continua/9788494949357/9626820" target="_blank" class="col-3">
+                        <a href="https://www.casadellibro.com.co/libro-creatividad-emprendimiento-y-mejora-continua/9788494949357/9626820"
+                            target="_blank" class="col-3">
                             <img src="images/company-images/creatividad.jpg" alt="Company" />
-                            <div class="client-overlay"><span>Rajadell, C. M. (2019). Creatividad: Emprendimiento y mejora continua. Reverté</span></div>
+                            <div class="client-overlay"><span>Rajadell, C. M. (2019). Creatividad: Emprendimiento y
+                                    mejora continua. Reverté</span></div>
                         </a>
                         <a href="https://archive.org/details/creativityincont0000amab" target="_blank" class="col-3">
                             <img src="images/company-images/creatividad2.webp" alt="Company" />
-                            <div class="client-overlay"><span>Amabile, T. (1996). Creativity in Context. Westview Press.</span></div>
+                            <div class="client-overlay"><span>Amabile, T. (1996). Creativity in Context. Westview
+                                    Press.</span></div>
                         </a>
-                        <a href="https://www.buscalibre.com.co/libro-el-pensamiento-lateral-manual-de-creatividad/9788449329456/p/34743871" target="_blank" class="col-3">
+                        <a href="https://www.buscalibre.com.co/libro-el-pensamiento-lateral-manual-de-creatividad/9788449329456/p/34743871"
+                            target="_blank" class="col-3">
                             <img src="images/company-images/creatividad3.jpg" alt="Company" />
-                            <div class="client-overlay"><span>De Bono, E. (2009). El pensamiento lateral: Manual de creatividad. Paidós.</span></div>
+                            <div class="client-overlay"><span>De Bono, E. (2009). El pensamiento lateral: Manual de
+                                    creatividad. Paidós.</span></div>
                         </a>
-                        <a href="https://www.perlego.com/book/993802/out-of-our-minds-the-power-of-being-creative-pdf" target="_blank" class="col-3">
+                        <a href="https://www.perlego.com/book/993802/out-of-our-minds-the-power-of-being-creative-pdf"
+                            target="_blank" class="col-3">
                             <img src="images/company-images/creatividad4.jpg" alt="Company" />
-                            <div class="client-overlay"><span>Robinson, K. (2011). Out of Our Minds: Learning to be Creative. Capstone.</span></div>
+                            <div class="client-overlay"><span>Robinson, K. (2011). Out of Our Minds: Learning to be
+                                    Creative. Capstone.</span></div>
                         </a>
-                        <a href="https://www.amazon.com/Creative-Confidence-Unleashing-Potential-Within/dp/038534936X" class="col-3">
+                        <a href="https://www.amazon.com/Creative-Confidence-Unleashing-Potential-Within/dp/038534936X"
+                            class="col-3">
                             <img src="images/company-images/creativiadad5.jpg" alt="Company" />
-                            <div class="client-overlay"><span>Kelley, T., & Kelley, D. (2013). Creative Confidence: Unleashing the Creative Potential Within Us All. Crown Business.</span></div>
+                            <div class="client-overlay"><span>Kelley, T., & Kelley, D. (2013). Creative Confidence:
+                                    Unleashing the Creative Potential Within Us All. Crown Business.</span></div>
                         </a>
-                        <a href="Sawyer, R. K. (2012). Explaining Creativity: The Science of Human Innovation (2nd ed.). Oxford University Press." class="col-3">
+                        <a href="Sawyer, R. K. (2012). Explaining Creativity: The Science of Human Innovation (2nd ed.). Oxford University Press."
+                            class="col-3">
                             <img src="images/company-images/creatividad6.jpg" alt="Company" />
-                            <div class="client-overlay"><span>Sawyer, R. K. (2012). Explaining Creativity: The Science of Human Innovation (2nd ed.). Oxford University Press.</span></div>
+                            <div class="client-overlay"><span>Sawyer, R. K. (2012). Explaining Creativity: The Science
+                                    of Human Innovation (2nd ed.). Oxford University Press.</span></div>
                         </a>
                     </div>
                 </div>
@@ -455,27 +464,29 @@
                 <div class="row clearfix">
 
                     <div class="section-heading">
-                        <h3>YOUR CHOICE</h3>
-                        <h2 class="section-title">We have the right package for you</h2>
+                        <h3>💡TIPS CREATIVOS</h3>
+                        <h2 class="section-title">AQUÍ ENCONTRARÁS TIPS NECESARIOS</h2>
                     </div>
 
                     <!--Pricing Block-->
                     <div class="pricing-block col-3 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="pricing-block-content">
-                            <h3>Personal</h3>
-                            <p class="pricing-sub">The standard version</p>
+                            <h3>Tip </h3>
+                            <p class="pricing-sub"> Anota tus ideas ☀️ </p>
                             <div class="pricing">
-                                <div class="price"><span>$</span>19</div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                <div class="price"><span>#</span>1</div>
+                                <p>Nunca subestimes una chispa de inspiración. Ten siempre un cuaderno o una app en el
+                                    celular
+                                    para registrar tus pensamientos, incluso los más pequeños.</p>
                             </div>
                             <ul>
-                                <li>5 Downloads</li>
-                                <li>2 Extensions</li>
-                                <li>Tutorials</li>
-                                <li>Forum Support</li>
-                                <li>1 year free updates</li>
+                                <li>✨ Beneficios:</li>
+                                <li>No olvidarás buenas ideas</li>
+                                <li>Podrás conectar conceptos en el futuro</li>
+                                <li>Tendrás un banco personal de creatividad</li>
                             </ul>
-                            <a href="#" class="button">BUY TODAY</a>
+                            <a href="https://vidico.com/news/creative-video-ideas/" target="_blank"
+                                class="button">DESCUBRE MÁS</a>
                         </div>
                     </div>
                     <!--End Pricing Block-->
@@ -483,20 +494,22 @@
                     <!--Pricing Block-->
                     <div class="pricing-block featured col-3 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="pricing-block-content">
-                            <h3>Student</h3>
-                            <p class="pricing-sub">Most popular choice</p>
+                            <h3>Tip </h3>
+                            <p class="pricing-sub">Cambia de entorno 🌱</p>
                             <div class="pricing">
-                                <div class="price"><span>$</span>29</div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                <div class="price"><span>#</span>2</div>
+                                <p>Estar siempre en el mismo lugar limita tu creatividad. Prueba trabajar en un café,
+                                    salir a caminar al parque o simplemente mover tu escritorio de sitio. Los cambios de
+                                    ambiente estimulan la mente.</p>
                             </div>
                             <ul>
-                                <li>15 Downloads</li>
-                                <li>5 Extensions</li>
-                                <li>Tutorials with Files</li>
-                                <li>Forum Support</li>
-                                <li>2 years free updates</li>
+                                <li>✨ Beneficios:</li>
+                                <li>Activas nuevas perspectivas</li>
+                                <li>Rompes la rutina mental</li>
+                                <li>Aumentas la inspiración con estímulos distintos</li>
                             </ul>
-                            <a href="#" class="button">BUY TODAY</a>
+                            <a href="https://vidico.com/news/creative-video-ideas/" target="_blank"
+                                class="button">DESCUBRE MÁS</a>
                         </div>
                     </div>
                     <!--End Pricing Block-->
@@ -504,20 +517,22 @@
                     <!--Pricing Block-->
                     <div class="pricing-block col-3 wow fadeInUp" data-wow-delay="0.8s">
                         <div class="pricing-block-content">
-                            <h3>Business</h3>
-                            <p class="pricing-sub">For the whole team</p>
+                            <h3>Tip </h3>
+                            <p class="pricing-sub"> Rodéate de diversidad 🤝</p>
                             <div class="pricing">
-                                <div class="price"><span>$</span>49</div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                <div class="price"><span>#</span>3</div>
+                                <p>Las mejores ideas nacen cuando compartimos con personas diferentes. Conversar con
+                                    alguien de otra profesión, edad o cultura puede abrirte caminos que no habías
+                                    imaginado.</p>
                             </div>
                             <ul>
-                                <li>Unlimited Downloads</li>
-                                <li>Unlimited Extensions</li>
-                                <li>HD Video Tutorials</li>
-                                <li>Chat Support</li>
-                                <li>Lifetime free updates</li>
+                                <li>✨ Beneficios:</li>
+                                <li>Amplías tu forma de ver el mundo</li>
+                                <li>Encuentras soluciones más creativas</li>
+                                <li>Generas colaboración y nuevas conexiones</li>
                             </ul>
-                            <a href="#" class="button">BUY TODAY</a>
+                            <a href="https://vidico.com/news/creative-video-ideas/" target="_blank"
+                                class="button">DESCUBRE MÁS</a>
                         </div>
                     </div>
                     <!--End Pricing Block-->
@@ -529,48 +544,35 @@
         </main>
         <!--End Main Content Area-->
 
-
         <!--Footer-->
         <footer id="landing-footer" class="clearfix">
             <div class="row clearfix">
 
-                <p id="copyright" class="col-2">Made with love by <a href="https://www.shapingrain.com">ShapingRain</a>
-                </p>
-
-                <!--Social Icons in Footer-->
-                <ul class="col-2 social-icons">
-                    <li>
-                        <a target="_blank" title="Facebook" href="https://www.facebook.com/username">
-                            <i class="fa fa-facebook fa-1x"></i><span>Facebook</span>
+                <center>
+                    <p id="copyright" class="col-2">Rajadell, C. M. (2019). Creatividad: Emprendimiento y mejora
+                        continua. Editorial Reverté. <a
+                            href="https://www.shapingrain.com">&copy;2025TodosLosDechosReservados.
                         </a>
-                    </li>
-                    <li>
-                        <a target="_blank" title="Google+" href="http://google.com/+username">
-                            <i class="fa fa-google-plus fa-1x"></i><span>Google+</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" title="Twitter" href="http://www.twitter.com/username">
-                            <i class="fa fa-twitter fa-1x"></i><span>Twitter</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" title="Instagram" href="http://www.instagram.com/username">
-                            <i class="fa fa-instagram fa-1x"></i><span>Instagram</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" title="behance" href="http://www.behance.net">
-                            <i class="fa fa-behance fa-1x"></i><span>Behance</span>
-                        </a>
-                    </li>
-                </ul>
-                <!--End of Social Icons in Footer-->
+                    </p>
+                    <!--Social Icons in Footer-->
+                    <ul class="col-2 social-icons">
+                        <li>
+                            <a target="_blank" title="Facebook" href="https://web.facebook.com/santiago.josebarbosa">
+                                <i class="fa fa-facebook fa-1x"></i><span>Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" title="Instagram" href="https://www.instagram.com/sbarbosarivas/">
+                                <i class="fa fa-instagram fa-1x"></i><span>Instagram</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!--End of Social Icons in Footer-->
             </div>
         </footer>
         <!--End of Footer-->
-
     </div>
+
 
     <!-- Include JavaScript resources -->
     <script src="js/jquery.1.8.3.min.js"></script>
@@ -588,5 +590,35 @@
 
 
 </body>
+<script>
+// filepath: c:\Users\Jbarb\OneDrive\Desktop\Proyectos Software\blog hermano Diego\index.html
+function showArticlePage(page) {
+    document.querySelectorAll('.article-page').forEach(div => div.style.display = 'none');
+    document.getElementById('article-page-' + page).style.display = 'block';
+}
+
+ const openModal = document.getElementById('openModal');
+    const modal = document.getElementById('videoModal');
+    const closeModal = document.getElementById('closeModal');
+    const youtubeFrame = document.getElementById('youtubeFrame');
+
+    openModal.addEventListener('click', () => {
+      modal.style.display = 'flex';
+      youtubeFrame.src = "https://www.youtube.com/embed/PLJwULvSQJo"; 
+    });
+
+    closeModal.addEventListener('click', () => {
+      modal.style.display = 'none';
+      youtubeFrame.src = ""; // Para detener el video al cerrar
+    });
+
+    window.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        modal.style.display = 'none';
+        youtubeFrame.src = "";
+      }
+    });
+
+</script>
 
 </html>
